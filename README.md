@@ -1,6 +1,12 @@
 # shopnest-infra-jenkins
 
+<img width="1917" height="1031" alt="Screenshot 2026-02-15 202616" src="https://github.com/user-attachments/assets/b9df79e4-5f00-4d00-a84e-bf32902b4968" />
+
+
 ## Complete Deployment Guide (Jenkins + Terraform + AWS)
+
+<img width="1915" height="1019" alt="Screenshot 2026-02-15 202545" src="https://github.com/user-attachments/assets/4ed0ea0e-a1ab-4644-b5a3-2ed0161eace0" />
+
 
 ---
 
