@@ -35,13 +35,21 @@ You must add **3 credentials**:
 
 
 ### 2️⃣ AWS Secret Access Key
+
+**Choose:**
 - Kind: **Secret text**
+
+**Fill:**
 - Secret: `YOUR_AWS_SECRET_ACCESS_KEY`
 - ID: `aws-secret-key`
 - Description: AWS Secret Key
 
 ### 3️⃣ EC2 SSH Private Key
+
+**Choose:**
 - Kind: **SSH Username with private key**
+
+**Fill:**
 - Username: `ubuntu`
 - ID: `ec2-ssh-key`
 - Private Key: Select **Enter directly** and paste your `.pem` file content
