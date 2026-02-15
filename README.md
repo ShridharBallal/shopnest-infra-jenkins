@@ -31,7 +31,7 @@ You must add **3 credentials**:
 
 **Fill:**
 
-&nbsp;&nbsp;Secret: `YOUR_AWS_ACCESS_KEY_ID ` 
+- Secret: `YOUR_AWS_ACCESS_KEY_ID ` 
 &nbsp;&nbsp;ID: `aws-access-key ` 
 &nbsp;&nbsp;Description: `AWS Access Key `
 
