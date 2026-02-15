@@ -1,4 +1,8 @@
 # shopnest-infra-jenkins
+
+in this jenkin server reuirede jenkin install and terraform and aws cli also reuired to install
+
+
 """ 
 pipeline {
     agent any
