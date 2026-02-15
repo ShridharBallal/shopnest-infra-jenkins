@@ -26,14 +26,13 @@ You must add **3 credentials**:
 ### 1️⃣ AWS Access Key
 
 **Choose:**
-
-&nbsp;&nbsp;Kind: **Secret text**  
+- Kind: **Secret text**  
 
 **Fill:**
 
 - Secret: `YOUR_AWS_ACCESS_KEY_ID ` 
-&nbsp;&nbsp;ID: `aws-access-key ` 
-&nbsp;&nbsp;Description: `AWS Access Key `
+- ID: `aws-access-key ` 
+- Description: `AWS Access Key `
 
 
 ### 2️⃣ AWS Secret Access Key
