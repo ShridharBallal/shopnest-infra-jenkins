@@ -24,8 +24,10 @@ Manage Jenkins → Manage Credentials → Global → Add Credentials
 You must add **3 credentials**:
 
 ### 1️⃣ AWS Access Key
+
 **Choose:**
-- Kind: **Secret text**  
+- Kind: **Secret text**
+  
 **Fill:**
 - Secret: `YOUR_AWS_ACCESS_KEY_ID ` 
 - ID: `aws-access-key ` 
