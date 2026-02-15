@@ -12,7 +12,7 @@ Make sure the Jenkins server has the following installed:
 - Terraform
 - AWS CLI
 - Git
-
+###### Terraform plugin also install in jenkins
 ---
 
 ## Jenkins Credentials Setup (Required Before Running Pipeline)
