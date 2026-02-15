@@ -150,3 +150,21 @@ pipeline {
         }
     }
 }
+```
+
+## Manual Infrastructure Deployment (Without Jenkins)
+
+If you want to deploy only the infrastructure manually:
+
+Remove `#` in the provider block inside Terraform files before running.
+
+```bash
+aws configure --profile "configs"
+# Enter:
+# AWS Access Key ID
+# AWS Secret Access Key
+# Region
+
+terraform init
+terraform apply
+terraform destroy
