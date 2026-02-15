@@ -112,7 +112,7 @@ pipeline {
                     echo "Waiting for EC2 to be ready..."
                     def ready = false
                     int retries = 0
-                    while (!ready && retries < 12) {
+                    while (!ready && retries < 12) { // retry for ~2 minutes
                         try {
                             sh "ssh -o StrictHostKeyChecking=no -i $SSH_KEY ubuntu@${EC2_IP} 'echo ready'"
                             ready = true
@@ -133,11 +133,16 @@ pipeline {
             steps {
                 sh """
                 ssh -o StrictHostKeyChecking=no -i $SSH_KEY ubuntu@${EC2_IP} '
+        
+
                 git clone https://github.com/shriballal30-svg/shopnest.git
+
                 cd shopnest
                 cd shopnest
+
                 sed -i "s/MY_IP/${EC2_IP}/g" .env
                 sed -i "s/MY_IP/${EC2_IP}/g" frontend/src/App.jsx
+
                 ./deploy.sh
                 '
                 """
