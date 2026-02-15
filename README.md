@@ -78,7 +78,7 @@ pipeline {
         stage('Clone Terraform Repo') {
             steps {
                 dir('terraform-repo') {
-                    git branch: 'main', url: 'https://github.com/shriballal30-svg/shopnest-infra-jenkins.git'
+                    git branch: 'main', url: 'https://github.com/ShridharBallal/shopnest-infra-jenkins.git'
                 }
             }
         }
@@ -135,7 +135,7 @@ pipeline {
                 ssh -o StrictHostKeyChecking=no -i $SSH_KEY ubuntu@${EC2_IP} '
         
 
-                git clone https://github.com/shriballal30-svg/shopnest.git
+                git clone https://github.com/ShridharBallal/shopnest.git
 
                 cd shopnest
                 cd shopnest
