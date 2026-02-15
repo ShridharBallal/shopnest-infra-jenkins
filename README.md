@@ -70,9 +70,7 @@ pipeline {
             steps {
                 sh """
                 ssh -o StrictHostKeyChecking=no -i $SSH_KEY ubuntu@${EC2_IP} '
-                
-                sudo apt update -y
-                sudo apt install git -y
+        
 
                 git clone https://github.com/shriballal30-svg/shopnest.git
 
